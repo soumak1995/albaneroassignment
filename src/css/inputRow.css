@@ -1,0 +1,32 @@
+.inputRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputRow__value{
+    padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin: 5px;
+}
+.inputRow__name{
+    padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin: 5px;
+}
+.inputRow__button{
+    margin: 5px;
+    background: rgb(156, 4, 24);
+    width: 100px;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+
+    border-color: border-box rgb(116, 3, 3);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    left: 0;
+    border-radius: 2rem;
+}

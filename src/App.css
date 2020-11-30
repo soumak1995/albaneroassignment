@@ -1,0 +1,57 @@
+.Dashboard{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+.Dashboard__rows{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    overflow: auto;
+   }
+   .Dashboard__cards{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin-left:200px;
+  }
+  .add_button{
+    background: rgb(70, 10, 235);
+    border-radius: 2rem;
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-color: border-box rgb(12, 9, 180);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+  .Dashboard__add_rows{
+    background: rgb(70, 10, 235);
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-color: border-box rgb(12, 9, 180);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin-left: 300px;
+  }
+  .Dashboard__add_card{
+    background: rgb(70, 10, 235);
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-color: border-box rgb(12, 9, 180);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    left: 0;
+  }
