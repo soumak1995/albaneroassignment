@@ -19,6 +19,7 @@
     margin: 5px;
     background: rgb(156, 4, 24);
     width: 100px;
+    max-width: 60px;
     height: 30px;
     border: 1px solid;
     font-weight: bolder;

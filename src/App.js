@@ -30,7 +30,7 @@ const DashBoard=({rows,cards,addRow,addCard,removeRow,removeCard})=>{
               
           </div>
           <button className="Dashboard__add_rows" onClick={addRow}>Add Row</button>
-          <button className="Dashboard__add_card" onClick={addCard}>Add Card</button>
+          <button className="Dashboard__add_card" onClick={addCard}>Create Card</button>
         <div className="Dashboard__cards">
               {
                 cards.map((card,index)=><Card removeCard={removeCard} key={index}/>)
