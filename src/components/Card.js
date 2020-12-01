@@ -7,7 +7,7 @@ function Card({removeCard}) {
                 <h5 >Name</h5>
                 <h5>Value</h5>
             </section>
-            <section className="card__section">
+            <section className="card__section__id">
                 <h5>ID</h5>
             </section>
         </div>
